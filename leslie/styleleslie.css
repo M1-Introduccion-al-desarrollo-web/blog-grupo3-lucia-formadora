@@ -1,0 +1,39 @@
+html {
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  color:#EA5B67;
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  border-style: solid;
+  font-size: 40px;
+}
+h3{
+  font-size: 25px;
+}
+h4 {
+  color: #EA5B67;
+  font-size: 23px;
+  background-color: black;
+}
+p {font-size: 20px;}
+img {
+  box-shadow: 10px 10px 20px #000;
+  border-radius: 4%;
+  object-view-box: inset(0%);
+  transition: all 0.75s;
+}
+img:hover {
+  object-view-box: inset(20%);
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+  flex-wrap: wrap;
+  margin: 0px 0;
+}
